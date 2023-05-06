@@ -1,0 +1,29 @@
+{
+  "name": "talk-a-tive",
+  "version": "1.0.0",
+  "description": "Chat Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohithowlader/chat-application.git"
+  },
+  "author": "Rohit Howlader",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohithowlader/chat-application/issues"
+  },
+  "homepage": "https://github.com/rohithowlader/chat-application#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
